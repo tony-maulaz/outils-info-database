@@ -3,13 +3,13 @@
 
 # Get files
 - open a local folder
-- clone the repo `git clone -o tmz <folder name>`
+- clone the repo `git clone -o tmz`
 - create a repo into your github account
 - copy the link of the repo
 - add the remote into your local folder `git remote add origin <repo link>`
-- push the repo `git push -u origin main`
+- push into your repo `git push -u origin master`
 
-# Fetch modification from TMZ
+# Fetch modifications from TMZ
 - `git pull tmz`
 
 # Commit modifications
