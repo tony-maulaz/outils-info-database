@@ -3,7 +3,7 @@
 
 # Get files
 - open a local folder
-- clone the repo `git clone -o tmz`
+- clone the repo `git clone -o tmz <folder name>`
 - create a repo into your github account
 - copy the link of the repo
 - add the remote into your local folder `git remote add origin <repo link>`
