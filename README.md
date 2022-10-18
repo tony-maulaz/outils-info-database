@@ -37,4 +37,5 @@
 
 ### Exécution des scripts
 Pour tester des requêtes, utiliser la console.
+
 Pour du code final, utiliser les fichiers sql (vous pouvez en créer des nouveaux).
