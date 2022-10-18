@@ -1,6 +1,4 @@
 
-TRUNCATE TABLE reservations, play, person_address, videos, persons, actors, addresses, categories RESTART IDENTITY CASCADE;
-
 DROP SCHEMA IF EXISTS ex_video CASCADE;
 CREATE SCHEMA ex_video;
 
@@ -86,6 +84,9 @@ CREATE TABLE IF NOT EXISTS reservations (
     FOREIGN KEY (person_id) REFERENCES persons(id),
     FOREIGN KEY (video_id) REFERENCES videos(id)
 );
+
+TRUNCATE TABLE reservations, play, person_address, videos, persons, actors, addresses, categories RESTART IDENTITY CASCADE;
+
 -- Insert data
 insert into categories (type) values ('Action');
 insert into categories (type) values ('Comedy');
